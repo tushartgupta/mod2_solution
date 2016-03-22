@@ -1,0 +1,90 @@
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: green;
+  font-size: 300%;
+}
+div{
+  /*padding: 10px;*/
+  margin: 10px;
+  border: 2px solid black;
+  background-color: gray;
+}
+section{
+  width: 100%;
+  /*border: 1px solid black;*/
+  background-color: gray;
+  float: right;
+  margin-top: 0;
+  margin-right: 0;
+  clear: left;
+
+}
+p {
+  border: 1px solid black;
+  width: 30%;
+  height: 30px;
+  margin-top: 0;
+  font-family: Helvetica;
+  color: black;
+  float: right;
+  font-weight: bold;
+  font-size: 120%;
+  /*word-wrap: break-word;*/
+}
+#p1{
+  background-color: #E9967A;
+}
+#p2{
+  background-color: #B22222;
+}
+#p3{
+  background-color: #BDB76B;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 130%;
+}
+/********** Large devices -- Desktops**********/
+@media (min-width: 992px) {
+  .col-lg-1{
+    float: left;
+    border: 2px solid black;
+  }
+
+  .col-lg-1 {
+    width: 30%;
+  }
+  
+}
+/********** Medium devices -- Like Tablets**********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-md-1 {
+    width: 41.66%;
+  }
+  
+}
+
+/********** Small devices -- Like Mobile phones**********/
+@media (max-width: 767px) {
+  .col-sd-1 {
+    float: left;
+    border: 2px solid black;
+  }
+  .col-sd-1 {
+    width: 50%;
+  }
+  #p1{
+    height: 30px;
+    width: 35%;
+  }
+}
+body{
+  background: url('../images/blank-restaurant-menu-template_large.jpg');
+}
