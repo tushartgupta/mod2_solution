@@ -4,6 +4,11 @@ h1 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: green;
   font-size: 300%;
+  /*text-shadow: 2px 2px #FF0000;*/
+      text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
 }
 div{
   /*padding: 10px;*/
@@ -22,7 +27,7 @@ section{
 
 }
 p {
-  border: 1px solid black;
+  border: 2px solid black;
   width: 30%;
   height: 30px;
   margin-top: 0;
@@ -31,13 +36,16 @@ p {
   float: right;
   font-weight: bold;
   font-size: 120%;
+  text-align: center;
   /*word-wrap: break-word;*/
 }
 #p1{
-  background-color: #E9967A;
+  background-color: #ff9999;
+
 }
 #p2{
-  background-color: #B22222;
+  background-color: #eb4747;
+  color: white;
 }
 #p3{
   background-color: #BDB76B;
@@ -86,5 +94,6 @@ p {
   }
 }
 body{
-  background: url('../images/blank-restaurant-menu-template_large.jpg');
+  background: url('../images/bRestaurant.jpg');
+  background-size: auto;
 }
