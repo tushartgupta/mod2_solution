@@ -74,12 +74,15 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1 {
     float: left;
+    display: inline-block;
     border: 2px solid black;
   }
-  .col-md-1 {
+ .col-md-1 {
     width: 41.66%;
   }
-  
+  .blk3{
+  	width: 86%;
+  }
 }
 
 /********** Small devices -- Like Mobile phones**********/
@@ -89,7 +92,7 @@ p {
     border: 2px solid black;
   }
   .col-sd-1 {
-    width: 50%;
+    width: 100%;
   }
   #p1{
     height: 30px;
